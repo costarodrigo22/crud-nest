@@ -19,6 +19,7 @@ import { UserModule } from './users/user.module';
       password: process.env.DB_PASSWORD,
       database: process.env.DB_DATABASE,
       entities: ['dist/**/*.model.js'],
+      url: process.env.DATABASE_URL,
       synchronize: false,
     }),
   ],

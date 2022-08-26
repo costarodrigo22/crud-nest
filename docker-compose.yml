@@ -7,10 +7,10 @@ services:
     ports:
       - "5432:5432"
     environment:
-      - DATABASE_HOST=127.0.0.1
-      - POSTGRES_USER=root
-      - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=root
+      - DATABASE_HOST=ec2-3-223-242-224.compute-1.amazonaws.com
+      - POSTGRES_USER=lbhlbtssvkwovq
+      - POSTGRES_PASSWORD=cc226e49b82bc7bdabb751a034693cc7470f297a50602c68e7c9ff5cc3c8456a
+      - POSTGRES_DB=d2a0k1v7glbdm4
   
   pgadmin:
     image: dpage/pgadmin4
